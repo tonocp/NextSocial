@@ -11,6 +11,7 @@ export const useToDosStore = defineStore('toDos', () => {
   };
 
   return {
+    toDos,
     addToDos,
   };
 });

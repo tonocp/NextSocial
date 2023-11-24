@@ -11,6 +11,7 @@ export const usePhotosStore = defineStore('photos', () => {
   };
 
   return {
+    photos,
     addPhotos,
   };
 });

@@ -11,6 +11,7 @@ export const useUsersStore = defineStore('users', () => {
   };
 
   return {
+    users,
     addUsers,
   };
 });
