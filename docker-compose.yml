@@ -1,0 +1,14 @@
+version: '3.9'
+
+# SERVICES CONFIGURATION
+services:
+  # FRONTEND SERVICE
+  next-social:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: next-social
+    container_name: next-social
+    restart: unless-stopped
+    ports:
+      - ${FRONT_PORT}:80
