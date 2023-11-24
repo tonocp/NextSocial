@@ -13,9 +13,9 @@ const router = createRouter({
       component: () => import('@/modules/home/HomePage.vue'),
       beforeEnter: [removeHash],
     },
-    // /**
-    //  * USERS ROUTES
-    //  */
+    /**
+     * USERS ROUTES
+     */
     {
       path: '/user',
       name: 'Users',
